@@ -1,0 +1,10 @@
+# JAVA
+typescript/algorithm-test/node_modules
+
+# TYPESCRIPT
+java/algorithm-test/target
+java/algorithm-test/algorithm-test.iml
+
+# GLOBAL
+.idea
+.idea/*
