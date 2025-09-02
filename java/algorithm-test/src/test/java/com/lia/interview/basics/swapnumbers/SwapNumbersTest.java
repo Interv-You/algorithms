@@ -21,15 +21,15 @@ class SwapNumbersTest {
     void testWith21And12() {
         final var swapNumber = new SwapNumbers(21, 12);
         swapNumber.swap();
-        Assertions.assertEquals(9, swapNumber.getX());
-        Assertions.assertEquals(3, swapNumber.getY());
+        Assertions.assertEquals(12, swapNumber.getX());
+        Assertions.assertEquals(21, swapNumber.getY());
     }
 
     @Test
     void testWith9And34() {
         final var swapNumber = new SwapNumbers(9, 34);
         swapNumber.swap();
-        Assertions.assertEquals(9, swapNumber.getX());
-        Assertions.assertEquals(3, swapNumber.getY());
+        Assertions.assertEquals(34, swapNumber.getX());
+        Assertions.assertEquals(9, swapNumber.getY());
     }
 }

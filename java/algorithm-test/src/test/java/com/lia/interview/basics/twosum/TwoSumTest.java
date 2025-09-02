@@ -17,7 +17,6 @@ class TwoSumTest {
     void testWithSimpleInput() {
         final var nums = new int[]{3, 6, 5, 15};
         final var target = 9;
-        final var map = new HashMap<Integer, Integer>();
         final var output = TwoSum.get(nums, target);
         assertThat(output).containsExactlyInAnyOrder(0,1);
         assertEquals(target, (nums[0] + nums[1]));
